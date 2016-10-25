@@ -1,50 +1,64 @@
-2016-10-25T02:39:44.571Z - normal: Load ~/.CocosCreator/settings.json
-2016-10-25T02:39:44.588Z - normal: checking language setting...
-2016-10-25T02:39:44.589Z - normal: Language: en
-2016-10-25T02:39:45.655Z - success: protocol editor-framework registered
-2016-10-25T02:39:45.655Z - success: protocol app registered
-2016-10-25T02:39:45.655Z - success: protocol packages registered
-2016-10-25T02:39:45.655Z - success: protocol theme registered
-2016-10-25T02:39:45.655Z - success: protocol unpack registerred
-2016-10-25T02:39:46.006Z - normal: connected!
-2016-10-25T02:39:46.009Z - normal: Check project C:\Users\10278\Documents\ClickGame
-2016-10-25T02:39:46.011Z - normal: Initializing Cocos Creator Editor
-2016-10-25T02:39:46.534Z - normal: Initializing Cocos2d
-2016-10-25T02:39:47.649Z - normal: Initializing Asset Database
-2016-10-25T02:39:47.681Z - success: protocol uuid registerred
-2016-10-25T02:39:47.681Z - success: protocol db registerred
-2016-10-25T02:39:47.681Z - success: protocol thumbnail registerred
-2016-10-25T02:39:47.681Z - normal: Loading editor/builtin packages
-2016-10-25T02:39:47.824Z - success: assets loaded
-2016-10-25T02:39:47.826Z - success: builder loaded
-2016-10-25T02:39:47.829Z - success: hierarchy loaded
-2016-10-25T02:39:47.832Z - success: inspector loaded
-2016-10-25T02:39:47.832Z - success: keystore loaded
-2016-10-25T02:39:47.834Z - success: node-library loaded
-2016-10-25T02:39:47.836Z - success: preferences loaded
-2016-10-25T02:39:47.851Z - success: project-importer loaded
-2016-10-25T02:39:47.852Z - success: project-settings loaded
-2016-10-25T02:39:47.876Z - success: ui-kit loaded
-2016-10-25T02:39:47.879Z - success: ui-grid loaded
-2016-10-25T02:39:47.882Z - success: scene loaded
-2016-10-25T02:39:47.883Z - success: sprite-editor loaded
-2016-10-25T02:39:47.903Z - success: timeline loaded
-2016-10-25T02:39:47.903Z - normal: Loading builtin packages
-2016-10-25T02:39:47.915Z - success: asset-db-debugger loaded
-2016-10-25T02:39:47.917Z - success: cocos-package loaded
-2016-10-25T02:39:47.919Z - success: code-editor loaded
-2016-10-25T02:39:47.920Z - success: color-picker loaded
-2016-10-25T02:39:47.922Z - success: console loaded
-2016-10-25T02:39:47.923Z - success: package-manager loaded
-2016-10-25T02:39:47.925Z - success: tester loaded
-2016-10-25T02:39:47.927Z - success: ui-kit-preview-extra loaded
-2016-10-25T02:39:47.927Z - success: ui-kit-preview loaded
-2016-10-25T02:39:47.928Z - success: ui-tree loaded
-2016-10-25T02:39:47.998Z - normal: Initializing project C:\Users\10278\Documents\ClickGame
-2016-10-25T02:39:48.006Z - normal: Loading packages
-2016-10-25T02:39:48.010Z - normal: Run Application
-2016-10-25T02:39:52.064Z - success: preview server running at http://localhost:7456
-2016-10-25T02:39:52.065Z - normal: Compiling scripts...
-2016-10-25T02:39:53.333Z - normal: Compiled successfully
-2016-10-25T02:39:57.043Z - normal: 1.2.2
-2016-10-25T03:23:23.189Z - info: shutdown preview server
+2016-10-25T04:14:46.431Z - normal: Load ~/.CocosCreator/settings.json
+2016-10-25T04:14:46.437Z - normal: checking language setting...
+2016-10-25T04:14:46.437Z - normal: Language: en
+2016-10-25T04:14:47.510Z - success: protocol editor-framework registered
+2016-10-25T04:14:47.510Z - success: protocol app registered
+2016-10-25T04:14:47.510Z - success: protocol packages registered
+2016-10-25T04:14:47.510Z - success: protocol theme registered
+2016-10-25T04:14:47.510Z - success: protocol unpack registerred
+2016-10-25T04:14:47.737Z - normal: connected!
+2016-10-25T04:14:47.740Z - normal: Check project C:\Users\10278\Documents\GitHub\ClickGame
+2016-10-25T04:14:47.742Z - normal: Initializing Cocos Creator Editor
+2016-10-25T04:14:48.420Z - normal: Initializing Cocos2d
+2016-10-25T04:14:49.340Z - normal: Initializing Asset Database
+2016-10-25T04:14:49.353Z - success: protocol uuid registerred
+2016-10-25T04:14:49.354Z - success: protocol db registerred
+2016-10-25T04:14:49.354Z - success: protocol thumbnail registerred
+2016-10-25T04:14:49.354Z - normal: Loading editor/builtin packages
+2016-10-25T04:14:49.471Z - success: assets loaded
+2016-10-25T04:14:49.472Z - success: builder loaded
+2016-10-25T04:14:49.475Z - success: hierarchy loaded
+2016-10-25T04:14:49.478Z - success: inspector loaded
+2016-10-25T04:14:49.479Z - success: keystore loaded
+2016-10-25T04:14:49.481Z - success: node-library loaded
+2016-10-25T04:14:49.482Z - success: preferences loaded
+2016-10-25T04:14:49.492Z - success: project-importer loaded
+2016-10-25T04:14:49.493Z - success: project-settings loaded
+2016-10-25T04:14:49.503Z - success: ui-kit loaded
+2016-10-25T04:14:49.512Z - success: ui-grid loaded
+2016-10-25T04:14:49.515Z - success: scene loaded
+2016-10-25T04:14:49.516Z - success: sprite-editor loaded
+2016-10-25T04:14:49.522Z - success: timeline loaded
+2016-10-25T04:14:49.522Z - normal: Loading builtin packages
+2016-10-25T04:14:49.525Z - success: asset-db-debugger loaded
+2016-10-25T04:14:49.526Z - success: cocos-package loaded
+2016-10-25T04:14:49.527Z - success: code-editor loaded
+2016-10-25T04:14:49.527Z - success: color-picker loaded
+2016-10-25T04:14:49.530Z - success: console loaded
+2016-10-25T04:14:49.531Z - success: package-manager loaded
+2016-10-25T04:14:49.534Z - success: tester loaded
+2016-10-25T04:14:49.535Z - success: ui-kit-preview-extra loaded
+2016-10-25T04:14:49.536Z - success: ui-kit-preview loaded
+2016-10-25T04:14:49.537Z - success: ui-tree loaded
+2016-10-25T04:14:49.588Z - normal: Initializing project C:\Users\10278\Documents\GitHub\ClickGame
+2016-10-25T04:14:49.588Z - warn: Profile local-local warning: reset profile field: last-edit
+2016-10-25T04:14:49.594Z - normal: Loading packages
+2016-10-25T04:14:49.597Z - normal: Run Application
+2016-10-25T04:14:51.702Z - success: preview server running at http://localhost:7456
+2016-10-25T04:14:55.300Z - normal: 1.2.2
+2016-10-25T07:23:32.403Z - error: TypeError: Cannot read property 'name' of undefined
+    at assets-tree.Editor.polymerElement._onDragOver (file:///C:/CocosCreator/resources/app.asar/editor/builtin/assets/panel/assets-tree.js:1:9041)
+    at assets-tree.handler (app://bower_components/polymer/polymer.html:471:17)
+2016-10-25T07:23:33.096Z - error: TypeError: Cannot read property 'name' of undefined
+    at assets-tree.Editor.polymerElement._onDragOver (file:///C:/CocosCreator/resources/app.asar/editor/builtin/assets/panel/assets-tree.js:1:9041)
+    at assets-tree.handler (app://bower_components/polymer/polymer.html:471:17)
+2016-10-25T07:23:33.112Z - error: TypeError: Cannot read property 'name' of undefined
+    at assets-tree.Editor.polymerElement._onDragOver (file:///C:/CocosCreator/resources/app.asar/editor/builtin/assets/panel/assets-tree.js:1:9041)
+    at assets-tree.handler (app://bower_components/polymer/polymer.html:471:17)
+2016-10-25T07:23:34.489Z - error: TypeError: Cannot read property 'contains' of undefined
+    at assets-tree.Editor.polymerElement._onDropAreaAccept (file:///C:/CocosCreator/resources/app.asar/editor/builtin/assets/panel/assets-tree.js:1:10115)
+    at assets-tree.handler (app://bower_components/polymer/polymer.html:471:17)
+    at Object.DomUtils.fire (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ui\utils\dom-utils.js:1:1971)
+    at assets-tree.<anonymous> (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ui\behaviors\droppable.js:1:1230)
+    at assets-tree.Droppable.checkIfDroppable (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ui\behaviors\droppable.js:1:1713)
+    at assets-tree.<anonymous> (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ui\behaviors\droppable.js:1:1115)
