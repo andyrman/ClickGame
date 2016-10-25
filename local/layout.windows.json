@@ -92,6 +92,28 @@
         "row": true,
         "type": "dock"
       }
+    },
+    "window-1477382049856": {
+      "x": 601,
+      "y": 271,
+      "width": 516,
+      "height": 538,
+      "layout": {
+        "docks": [
+          {
+            "active": 0,
+            "height": 500,
+            "panels": [
+              "sprite-editor"
+            ],
+            "type": "panel",
+            "width": 500
+          }
+        ],
+        "no-collapse": true,
+        "row": false,
+        "type": "dock"
+      }
     }
   }
 }
