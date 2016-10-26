@@ -2,7 +2,15 @@ cc.Class({
     "extends": cc.Component,
 
     properties: {
+        titleLabel: {
+            "default": null,
+            type: cc.Label
+        },
         scoreLabel: {
+            "default": null,
+            type: cc.Label
+        },
+        highLabel: {
             "default": null,
             type: cc.Label
         },
@@ -54,6 +62,10 @@ cc.Class({
     onControlButton: function onControlButton() {
         if (!this.coolDown && !this.inGame) {
             this.coolDown = true;
+
+            this.titleLabel.enabled = false;
+            this.highLabel.enabled = true;
+            this.scoreLabel.enabled = true;
         }
         if (this.end) {
             this.gameRestart();
@@ -68,19 +80,23 @@ cc.Class({
             this.coolDown = false;
             this.coolDownCount = 0;
             this.countDownLabel.string = "Click";
-            this.controlButton.setVisible(false);
+            this.controlButton.enabled = false;
             this.inGame = true;
         }
     },
 
     inGameProcess: function inGameProcess(dt) {
-        this.scoreLabel.string = "Clicks: " + this.score.toString();
+
+        this.scoreLabel.string = "Clicks : " + this.score.toString();
+        this.highLabel.string = "Highest : " + this.highScore.toString();
+
         this.gameTime -= dt;
         this.clockBar.setRotation(-36 * this.gameTime);
 
         //Real time high score tracking
+
         if (this.score > this.highScore) {
-            this.highScore = this.Score;
+            this.highScore = this.score;
         }
 
         if (this.gameTime <= 0) {
@@ -88,12 +104,13 @@ cc.Class({
             this.end = true;
             this.gameTime = 0;
             this.countDownLabel.string = "Restart";
-            this.controlButton.setVisible(true);
+            this.controlButton.enabled = true;
         }
     },
 
     // called every frame, uncomment this function to activate update callback
     update: function update(dt) {
+        console.log(this.highScore);
         if (this.coolDown) {
             this.coolDownProcess(dt);
         } else if (this.inGame) {
