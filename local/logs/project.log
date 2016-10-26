@@ -1,127 +1,152 @@
-2016-10-25T09:51:10.130Z - normal: Load ~/.CocosCreator/settings.json
-2016-10-25T09:51:10.135Z - normal: checking language setting...
-2016-10-25T09:51:10.135Z - normal: Language: en
-2016-10-25T09:51:11.232Z - success: protocol editor-framework registered
-2016-10-25T09:51:11.232Z - success: protocol app registered
-2016-10-25T09:51:11.232Z - success: protocol packages registered
-2016-10-25T09:51:11.232Z - success: protocol theme registered
-2016-10-25T09:51:11.232Z - success: protocol unpack registerred
-2016-10-25T09:51:11.488Z - normal: connected!
-2016-10-25T09:51:11.497Z - normal: Check project C:\Users\10278\Documents\GitHub\ClickGame
-2016-10-25T09:51:11.502Z - normal: Initializing Cocos Creator Editor
-2016-10-25T09:51:12.296Z - normal: Initializing Cocos2d
-2016-10-25T09:51:13.480Z - normal: Initializing Asset Database
-2016-10-25T09:51:13.507Z - success: protocol uuid registerred
-2016-10-25T09:51:13.507Z - success: protocol db registerred
-2016-10-25T09:51:13.507Z - success: protocol thumbnail registerred
-2016-10-25T09:51:13.507Z - normal: Loading editor/builtin packages
-2016-10-25T09:51:13.749Z - success: assets loaded
-2016-10-25T09:51:13.751Z - success: builder loaded
-2016-10-25T09:51:13.755Z - success: hierarchy loaded
-2016-10-25T09:51:13.759Z - success: inspector loaded
-2016-10-25T09:51:13.760Z - success: keystore loaded
-2016-10-25T09:51:13.771Z - success: node-library loaded
-2016-10-25T09:51:13.773Z - success: preferences loaded
-2016-10-25T09:51:13.799Z - success: project-importer loaded
-2016-10-25T09:51:13.805Z - success: project-settings loaded
-2016-10-25T09:51:13.806Z - success: ui-kit loaded
-2016-10-25T09:51:13.810Z - success: ui-grid loaded
-2016-10-25T09:51:13.813Z - success: scene loaded
-2016-10-25T09:51:13.814Z - success: sprite-editor loaded
-2016-10-25T09:51:13.818Z - success: timeline loaded
-2016-10-25T09:51:13.818Z - normal: Loading builtin packages
-2016-10-25T09:51:13.824Z - success: asset-db-debugger loaded
-2016-10-25T09:51:13.826Z - success: cocos-package loaded
-2016-10-25T09:51:13.827Z - success: code-editor loaded
-2016-10-25T09:51:13.827Z - success: color-picker loaded
-2016-10-25T09:51:13.829Z - success: console loaded
-2016-10-25T09:51:13.831Z - success: package-manager loaded
-2016-10-25T09:51:13.833Z - success: tester loaded
-2016-10-25T09:51:13.834Z - success: ui-kit-preview-extra loaded
-2016-10-25T09:51:13.835Z - success: ui-kit-preview loaded
-2016-10-25T09:51:13.836Z - success: ui-tree loaded
-2016-10-25T09:51:13.903Z - normal: Initializing project C:\Users\10278\Documents\GitHub\ClickGame
-2016-10-25T09:51:13.912Z - normal: Loading packages
-2016-10-25T09:51:13.916Z - normal: Run Application
-2016-10-25T09:51:18.493Z - success: preview server running at http://localhost:7456
-2016-10-25T09:51:22.187Z - normal: 1.2.2
-2016-10-26T02:41:59.738Z - error: TypeError: Cannot read property 'name' of undefined
-    at assets-tree.Editor.polymerElement._onDragOver (file:///C:/CocosCreator/resources/app.asar/editor/builtin/assets/panel/assets-tree.js:1:9041)
-    at assets-tree.handler (app://bower_components/polymer/polymer.html:471:17)
-2016-10-26T02:42:00.183Z - error: TypeError: Cannot read property 'name' of undefined
-    at assets-tree.Editor.polymerElement._onDragOver (file:///C:/CocosCreator/resources/app.asar/editor/builtin/assets/panel/assets-tree.js:1:9041)
-    at assets-tree.handler (app://bower_components/polymer/polymer.html:471:17)
-2016-10-26T02:42:01.221Z - error: TypeError: Cannot read property 'name' of undefined
-    at assets-tree.Editor.polymerElement._onDragOver (file:///C:/CocosCreator/resources/app.asar/editor/builtin/assets/panel/assets-tree.js:1:9041)
-    at assets-tree.handler (app://bower_components/polymer/polymer.html:471:17)
-2016-10-26T02:42:17.886Z - normal: Compiled successfully
-2016-10-26T02:42:37.876Z - normal: Compiled successfully
-2016-10-26T02:42:46.148Z - normal: Compiled successfully
-2016-10-26T03:32:38.445Z - normal: Compiled successfully
-2016-10-26T03:34:10.199Z - normal: Compiled successfully
-2016-10-26T03:36:45.701Z - normal: Compiled successfully
-2016-10-26T03:44:12.511Z - normal: Compiled successfully
-2016-10-26T03:50:53.158Z - normal: Compiled successfully
-2016-10-26T03:51:42.671Z - normal: Compiled successfully
-2016-10-26T03:51:42.722Z - warn: The "type" attribute of "GameScript.countDownLabel" is undefined when loading script.
-2016-10-26T03:51:43.684Z - error: getComponent: Type must be non-nil
-    at getConstructor (C:\CocosCreator\resources\engine\cocos2d\core\CCNode.js:260:12)
-    at cc_Node.cc.Class.getComponent (C:\CocosCreator\resources\engine\cocos2d\core\CCNode.js:600:27)
-    at editor-scene.Editor.polymerPanel.messages.scene:query-node-info (file:///C:/CocosCreator/resources/app.asar/editor/builtin/scene/panel/scene.js:1:6546)
-    at Object.Panel._dispatch (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\panel.js:1:4765)
-    at EventEmitter.<anonymous> (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:4943)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:201:7)
-2016-10-26T03:52:04.342Z - error: getComponent: Type must be non-nil
-    at getConstructor (C:\CocosCreator\resources\engine\cocos2d\core\CCNode.js:260:12)
-    at cc_Node.cc.Class.getComponent (C:\CocosCreator\resources\engine\cocos2d\core\CCNode.js:600:27)
-    at editor-scene.Editor.polymerPanel.messages.scene:query-node-info (file:///C:/CocosCreator/resources/app.asar/editor/builtin/scene/panel/scene.js:1:6546)
-    at Object.Panel._dispatch (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\panel.js:1:4765)
-    at EventEmitter.<anonymous> (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:4943)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:201:7)
-2016-10-26T03:52:20.543Z - normal: Compiled successfully
-2016-10-26T03:53:06.218Z - normal: Compiled successfully
-2016-10-26T04:16:03.235Z - normal: Compiled successfully
-2016-10-26T04:18:30.746Z - normal: Compiled successfully
-2016-10-26T04:18:30.821Z - error: ReferenceError: score is not defined
-    at Object.require.GameScript: "score,gameTime, coolDownCount, coolDown, inGame" (assets/scripts/GameScript.js:30:8)
-    at s (../../../../../../../CocosCreator/resources/app.asar/node_modules/browser-pack/_prelude.js:1)
-    at e (../../../../../../../CocosCreator/resources/app.asar/node_modules/browser-pack/_prelude.js:1)
-    at file:///C:/Users/10278/Documents/GitHub/ClickGame/library/bundle.project.js?014:1:451
-2016-10-26T04:18:30.847Z - warn: Can not find script "da0c416e-ac2f-4537-a62c-ac79f3b93a2f"
-2016-10-26T04:19:33.990Z - normal: Compiled successfully
-2016-10-26T04:19:56.774Z - normal: Compiled successfully
-2016-10-26T04:21:35.031Z - normal: Compiled successfully
-2016-10-26T04:22:26.546Z - normal: Compiled successfully
-2016-10-26T04:28:52.674Z - normal: Compiled successfully
-2016-10-26T04:51:58.346Z - normal: Compiled successfully
-2016-10-26T04:54:20.287Z - normal: Compiled successfully
-2016-10-26T04:55:21.829Z - normal: Compiled successfully
-2016-10-26T04:57:00.311Z - normal: Compiled successfully
-2016-10-26T05:03:37.569Z - normal: Compiled successfully
-2016-10-26T05:04:30.313Z - normal: Compiled successfully
-2016-10-26T05:08:23.354Z - normal: Compiled successfully
-2016-10-26T05:09:25.260Z - normal: Compiled successfully
-2016-10-26T05:20:30.577Z - normal: Compiled successfully
-2016-10-26T05:31:09.103Z - normal: Compiled successfully
-2016-10-26T05:32:58.005Z - normal: Compiled successfully
-2016-10-26T07:46:33.186Z - normal: Compiled successfully
-2016-10-26T07:49:12.558Z - normal: Compiled successfully
-2016-10-26T07:50:11.669Z - normal: Compiled successfully
-2016-10-26T07:57:16.338Z - normal: Compiled successfully
-2016-10-26T07:58:06.399Z - normal: Compiled successfully
-2016-10-26T08:03:38.809Z - normal: Compiled successfully
-2016-10-26T08:04:08.096Z - normal: Compiled successfully
-2016-10-26T08:04:47.890Z - normal: Compiled successfully
-2016-10-26T08:20:09.129Z - normal: Compiled successfully
-2016-10-26T08:21:11.919Z - normal: Compiled successfully
-2016-10-26T08:33:27.499Z - normal: Compiled successfully
-2016-10-26T08:46:24.081Z - normal: Compiled successfully
-2016-10-26T08:47:16.488Z - normal: Compiled successfully
-2016-10-26T08:49:18.982Z - normal: Compiled successfully
-2016-10-26T08:50:21.130Z - normal: Compiled successfully
-2016-10-26T08:51:09.352Z - normal: Compiled successfully
-2016-10-26T08:51:36.558Z - normal: Compiled successfully
-2016-10-26T08:56:40.572Z - warn: Failed to send ipc message scene:query-node to panel scene, panel not found
-2016-10-26T08:56:40.575Z - warn: Failed to send ipc message scene:query-hierarchy to panel scene, panel not found
+2016-10-26T10:24:38.000Z - normal: Load ~/.CocosCreator/settings.json
+2016-10-26T10:24:38.006Z - normal: checking language setting...
+2016-10-26T10:24:38.006Z - normal: Language: en
+2016-10-26T10:24:39.104Z - success: protocol editor-framework registered
+2016-10-26T10:24:39.104Z - success: protocol app registered
+2016-10-26T10:24:39.104Z - success: protocol packages registered
+2016-10-26T10:24:39.104Z - success: protocol theme registered
+2016-10-26T10:24:39.104Z - success: protocol unpack registerred
+2016-10-26T10:24:41.583Z - normal: connected!
+2016-10-26T10:24:41.587Z - normal: Check project C:\Users\10278\Documents\GitHub\ClickGame
+2016-10-26T10:24:41.591Z - normal: Initializing Cocos Creator Editor
+2016-10-26T10:24:42.357Z - normal: Initializing Cocos2d
+2016-10-26T10:24:43.235Z - normal: Initializing Asset Database
+2016-10-26T10:24:43.275Z - success: protocol uuid registerred
+2016-10-26T10:24:43.275Z - success: protocol db registerred
+2016-10-26T10:24:43.275Z - success: protocol thumbnail registerred
+2016-10-26T10:24:43.275Z - normal: Loading editor/builtin packages
+2016-10-26T10:24:43.589Z - success: assets loaded
+2016-10-26T10:24:43.589Z - success: builder loaded
+2016-10-26T10:24:43.589Z - success: hierarchy loaded
+2016-10-26T10:24:43.589Z - success: inspector loaded
+2016-10-26T10:24:43.599Z - success: keystore loaded
+2016-10-26T10:24:43.599Z - success: node-library loaded
+2016-10-26T10:24:43.599Z - success: preferences loaded
+2016-10-26T10:24:43.613Z - success: project-importer loaded
+2016-10-26T10:24:43.614Z - success: project-settings loaded
+2016-10-26T10:24:43.615Z - success: ui-kit loaded
+2016-10-26T10:24:43.626Z - success: ui-grid loaded
+2016-10-26T10:24:43.636Z - success: scene loaded
+2016-10-26T10:24:43.636Z - success: sprite-editor loaded
+2016-10-26T10:24:43.636Z - success: timeline loaded
+2016-10-26T10:24:43.636Z - normal: Loading builtin packages
+2016-10-26T10:24:43.646Z - success: asset-db-debugger loaded
+2016-10-26T10:24:43.646Z - success: cocos-package loaded
+2016-10-26T10:24:43.646Z - success: code-editor loaded
+2016-10-26T10:24:43.656Z - success: color-picker loaded
+2016-10-26T10:24:43.656Z - success: console loaded
+2016-10-26T10:24:43.656Z - success: package-manager loaded
+2016-10-26T10:24:43.656Z - success: tester loaded
+2016-10-26T10:24:43.656Z - success: ui-kit-preview-extra loaded
+2016-10-26T10:24:43.656Z - success: ui-kit-preview loaded
+2016-10-26T10:24:43.656Z - success: ui-tree loaded
+2016-10-26T10:24:43.722Z - normal: Initializing project C:\Users\10278\Documents\GitHub\ClickGame
+2016-10-26T10:24:43.730Z - normal: Loading packages
+2016-10-26T10:24:43.731Z - normal: Run Application
+2016-10-26T10:24:48.862Z - success: preview server running at http://localhost:7456
+2016-10-26T10:24:52.579Z - normal: 1.2.2
+2016-10-26T10:25:29.746Z - normal: Creating native cocos project to  C:\Users\10278\Documents\GitHub\ClickGame\build\jsb-default
+2016-10-26T10:26:24.321Z - normal: Compiled successfully
+2016-10-26T10:26:25.472Z - normal: 1.2.2
+2016-10-26T10:26:27.999Z - normal: Built to "C:\Users\10278\Documents\GitHub\ClickGame\build" successfully
+2016-10-26T10:30:24.797Z - normal: Start to compile native project. Please wait...
+2016-10-26T10:30:24.805Z - normal: The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+2016-10-26T10:30:25.308Z - failed: Error: Compile failed. The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:16811)
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:6781)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:850:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+2016-10-26T10:50:49.344Z - normal: Start to compile native project. Please wait...
+2016-10-26T10:50:49.346Z - normal: The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+2016-10-26T10:50:50.485Z - failed: Error: Compile failed. The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:16811)
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:6781)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:850:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+2016-10-26T10:54:20.668Z - normal: Start to compile native project. Please wait...
+2016-10-26T10:54:20.669Z - normal: The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+2016-10-26T10:54:21.867Z - failed: Error: Compile failed. The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:16811)
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:6781)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:850:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+2016-10-26T10:56:34.580Z - normal: Start to compile native project. Please wait...
+2016-10-26T10:56:34.583Z - normal: The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+2016-10-26T10:56:35.472Z - failed: Error: Compile failed. The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:16811)
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:6781)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:850:16)
+    at Socket.<anonymous> (internal/child_process.js:323:11)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at Pipe._handle.close [as _onclose] (net.js:492:12)
+2016-10-26T10:56:56.326Z - error: { Error: ENOTEMPTY: directory not empty, rmdir 'C:\Users\10278\Documents\GitHub\ClickGame\build\jsb-default\res\raw-assets'
+    at Error (native)
+    at Object.fs.rmdirSync (fs.js:880:18)
+    at rmkidsSync (C:\CocosCreator\resources\app.asar\node_modules\rimraf\rimraf.js:342:11)
+    at rmdirSync (C:\CocosCreator\resources\app.asar\node_modules\rimraf\rimraf.js:332:7)
+    at rimrafSync (C:\CocosCreator\resources\app.asar\node_modules\rimraf\rimraf.js:303:9)
+    at C:\CocosCreator\resources\app.asar\node_modules\rimraf\rimraf.js:340:5
+    at Array.forEach (native)
+    at rmkidsSync (C:\CocosCreator\resources\app.asar\node_modules\rimraf\rimraf.js:339:26)
+    at rmdirSync (C:\CocosCreator\resources\app.asar\node_modules\rimraf\rimraf.js:332:7)
+    at Function.rimrafSync [as sync] (C:\CocosCreator\resources\app.asar\node_modules\rimraf\rimraf.js:303:9)
+  errno: -4051,
+  code: 'ENOTEMPTY',
+  syscall: 'rmdir',
+  path: 'C:\\Users\\10278\\Documents\\GitHub\\ClickGame\\build\\jsb-default\\res\\raw-assets' }
+    at clearDest (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:8780)
+    at C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:14600
+    at C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:4011
+    at C:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:726:13
+    at C:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:52:16
+    at C:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:269:32
+    at C:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:44:16
+    at C:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:723:17
+    at C:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:167:37
+2016-10-26T10:56:57.731Z - normal: Compiled successfully
+2016-10-26T10:56:58.862Z - normal: 1.2.2
+2016-10-26T10:57:01.199Z - normal: Built to "C:\Users\10278\Documents\GitHub\ClickGame\build" successfully
+2016-10-26T10:57:36.089Z - normal: Compiled successfully
+2016-10-26T10:57:37.227Z - normal: 1.2.2
+2016-10-26T10:57:39.090Z - normal: Built to "C:\Users\10278\Documents\GitHub\ClickGame\build" successfully
+2016-10-26T10:57:41.922Z - normal: Start to compile native project. Please wait...
+2016-10-26T10:57:41.922Z - normal: The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+2016-10-26T10:57:42.438Z - failed: Error: Compile failed. The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:16811)
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:6781)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:850:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+2016-10-26T10:58:00.473Z - normal: Start to run project
+2016-10-26T10:58:01.607Z - normal: Start to run project. Please wait...
+2016-10-26T10:58:01.608Z - normal: The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+2016-10-26T10:58:02.805Z - failed: Error: Failed to run project. The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:17800)
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:6781)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:850:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+2016-10-26T11:10:36.849Z - normal: Compiled successfully
+2016-10-26T11:33:21.054Z - normal: Compiled successfully
+2016-10-26T11:33:22.264Z - normal: 1.2.2
+2016-10-26T11:33:31.429Z - normal: Built to "C:\Users\10278\Documents\GitHub\ClickGame\build" successfully
+2016-10-26T11:33:45.353Z - normal: Start to compile native project. Please wait...
+2016-10-26T11:33:45.353Z - normal: The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+2016-10-26T11:33:47.964Z - failed: Error: Compile failed. The log file path [ C:\Users\10278\.CocosCreator\logs\native.log ]
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:16811)
+    at ChildProcess.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\native-utils.js:1:6781)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:850:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)

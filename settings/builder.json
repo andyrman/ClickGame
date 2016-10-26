@@ -1,0 +1,17 @@
+{
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "orientation": {
+    "landscapeLeft": false,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ClickGame",
+  "startScene": "0a73197b-3736-41b0-ba6c-42d7d822e47f",
+  "title": "ClickGame",
+  "webOrientation": "auto"
+}
