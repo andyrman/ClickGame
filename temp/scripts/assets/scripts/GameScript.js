@@ -14,64 +14,94 @@ cc.Class({
             "default": null,
             type: cc.Label
         },
+        controlButton: {
+            "default": null,
+            type: cc.Button
+        },
         clickMe: {
             "default": null,
             type: cc.Button
         },
-        restart: {
-            "default": null,
-            type: cc.Button
-        },
-        bar: {
+        clockBar: {
             "default": null,
             type: cc.Node
         },
-        score: 0,
-        time: 10,
-        count: 3,
-        countDown: true,
-        end: true
+        highScore: 0
     },
 
     // use this for initialization
-    onLoad: function onLoad() {},
+    onLoad: function onLoad() {
+        this.gameRestart();
+    },
 
     onClickMe: function onClickMe() {
-        if (!this.end) {
+        if (this.inGame) {
             this.score++;
         }
     },
 
-    onRestart: function onRestart() {
+    gameRestart: function gameRestart() {
         this.score = 0;
-        this.time = 10;
-        this.count = 3;
-        this.countDown = true;
+        this.gameTime = 10;
+        this.coolDownCount = 3;
+        this.coolDown = false;
+        this.inGame = false;
         this.end = false;
 
-        this.bar.setRotation(-36 * this.time);
+        this.clockBar.setRotation(0);
+    },
+
+    onRestart: function onRestart() {
+        this.gameRestart();
+    },
+
+    onControlButton: function onControlButton() {
+        if (!this.coolDown && !this.inGame) {
+            this.coolDown = true;
+        }
+        if (this.end) {
+            this.gameRestart();
+            this.coolDown = true;
+        }
+    },
+
+    coolDownProcess: function coolDownProcess(dt) {
+        this.coolDownCount -= dt;
+        this.countDownLabel.string = Math.ceil(this.coolDownCount).toFixed(0).toString();
+        if (this.coolDownCount <= 0) {
+            this.coolDown = false;
+            this.coolDownCount = 0;
+            this.countDownLabel.string = "Click";
+            this.controlButton.setVisible(false);
+            this.inGame = true;
+        }
+    },
+
+    inGameProcess: function inGameProcess(dt) {
+        this.scoreLabel.string = "Clicks: " + this.score.toString();
+        this.gameTime -= dt;
+        this.clockBar.setRotation(-36 * this.gameTime);
+
+        //Real time high score tracking
+        if (this.score > this.highScore) {
+            this.highScore = this.Score;
+        }
+
+        if (this.gameTime <= 0) {
+            this.inGame = false;
+            this.end = true;
+            this.gameTime = 0;
+            this.countDownLabel.string = "Restart";
+            this.controlButton.setVisible(true);
+        }
     },
 
     // called every frame, uncomment this function to activate update callback
     update: function update(dt) {
-        if (this.countDown) {
-            this.count -= dt;
-            this.countDownLabel.string = Math.ceil(this.count).toFixed(0).toString();
-            if (this.count <= 0) {
-                this.countDown = false;
-                this.count = 0;
-                this.countDownLabel.string = "Start!!";
-                this.end = false;
-            }
-        } else {
-            this.scoreLabel.string = this.score.toString();
-            this.time -= dt;
-            this.bar.setRotation(-36 * this.time);
-            if (this.time <= 0) {
-                this.end = true;
-                this.time = 0;
-                this.countDownLabel.string = "End!!";
-            }
+        if (this.coolDown) {
+            this.coolDownProcess(dt);
+        } else if (this.inGame) {
+            this.inGameProcess(dt);
         }
     }
 });

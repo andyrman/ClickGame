@@ -60,3 +60,49 @@
 2016-10-26T03:32:38.445Z - normal: Compiled successfully
 2016-10-26T03:34:10.199Z - normal: Compiled successfully
 2016-10-26T03:36:45.701Z - normal: Compiled successfully
+2016-10-26T03:44:12.511Z - normal: Compiled successfully
+2016-10-26T03:50:53.158Z - normal: Compiled successfully
+2016-10-26T03:51:42.671Z - normal: Compiled successfully
+2016-10-26T03:51:42.722Z - warn: The "type" attribute of "GameScript.countDownLabel" is undefined when loading script.
+2016-10-26T03:51:43.684Z - error: getComponent: Type must be non-nil
+    at getConstructor (C:\CocosCreator\resources\engine\cocos2d\core\CCNode.js:260:12)
+    at cc_Node.cc.Class.getComponent (C:\CocosCreator\resources\engine\cocos2d\core\CCNode.js:600:27)
+    at editor-scene.Editor.polymerPanel.messages.scene:query-node-info (file:///C:/CocosCreator/resources/app.asar/editor/builtin/scene/panel/scene.js:1:6546)
+    at Object.Panel._dispatch (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\panel.js:1:4765)
+    at EventEmitter.<anonymous> (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:4943)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:201:7)
+2016-10-26T03:52:04.342Z - error: getComponent: Type must be non-nil
+    at getConstructor (C:\CocosCreator\resources\engine\cocos2d\core\CCNode.js:260:12)
+    at cc_Node.cc.Class.getComponent (C:\CocosCreator\resources\engine\cocos2d\core\CCNode.js:600:27)
+    at editor-scene.Editor.polymerPanel.messages.scene:query-node-info (file:///C:/CocosCreator/resources/app.asar/editor/builtin/scene/panel/scene.js:1:6546)
+    at Object.Panel._dispatch (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\panel.js:1:4765)
+    at EventEmitter.<anonymous> (C:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:4943)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:201:7)
+2016-10-26T03:52:20.543Z - normal: Compiled successfully
+2016-10-26T03:53:06.218Z - normal: Compiled successfully
+2016-10-26T04:16:03.235Z - normal: Compiled successfully
+2016-10-26T04:18:30.746Z - normal: Compiled successfully
+2016-10-26T04:18:30.821Z - error: ReferenceError: score is not defined
+    at Object.require.GameScript: "score,gameTime, coolDownCount, coolDown, inGame" (assets/scripts/GameScript.js:30:8)
+    at s (../../../../../../../CocosCreator/resources/app.asar/node_modules/browser-pack/_prelude.js:1)
+    at e (../../../../../../../CocosCreator/resources/app.asar/node_modules/browser-pack/_prelude.js:1)
+    at file:///C:/Users/10278/Documents/GitHub/ClickGame/library/bundle.project.js?014:1:451
+2016-10-26T04:18:30.847Z - warn: Can not find script "da0c416e-ac2f-4537-a62c-ac79f3b93a2f"
+2016-10-26T04:19:33.990Z - normal: Compiled successfully
+2016-10-26T04:19:56.774Z - normal: Compiled successfully
+2016-10-26T04:21:35.031Z - normal: Compiled successfully
+2016-10-26T04:22:26.546Z - normal: Compiled successfully
+2016-10-26T04:28:52.674Z - normal: Compiled successfully
+2016-10-26T04:51:58.346Z - normal: Compiled successfully
+2016-10-26T04:54:20.287Z - normal: Compiled successfully
+2016-10-26T04:55:21.829Z - normal: Compiled successfully
+2016-10-26T04:57:00.311Z - normal: Compiled successfully
+2016-10-26T05:03:37.569Z - normal: Compiled successfully
+2016-10-26T05:04:30.313Z - normal: Compiled successfully
+2016-10-26T05:08:23.354Z - normal: Compiled successfully
+2016-10-26T05:09:25.260Z - normal: Compiled successfully
+2016-10-26T05:20:30.577Z - normal: Compiled successfully
+2016-10-26T05:31:09.103Z - normal: Compiled successfully
+2016-10-26T05:32:58.005Z - normal: Compiled successfully
