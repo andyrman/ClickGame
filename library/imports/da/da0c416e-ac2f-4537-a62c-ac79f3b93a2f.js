@@ -6,10 +6,6 @@ cc.Class({
             "default": null,
             type: cc.Label
         },
-        timeLabel: {
-            "default": null,
-            type: cc.Label
-        },
         countDownLabel: {
             "default": null,
             type: cc.Label
@@ -24,7 +20,7 @@ cc.Class({
         },
         bar: {
             "default": null,
-            type: cc.ProgressBar
+            type: cc.Node
         },
         score: 0,
         time: 10,
@@ -49,8 +45,7 @@ cc.Class({
         this.countDown = true;
         this.end = false;
 
-        this.timeLabel.string = Math.ceil(this.time).toFixed(0).toString();
-        this.bar.setRotation(36 * this.time);
+        this.bar.setRotation(-36 * this.time);
     },
 
     // called every frame, uncomment this function to activate update callback
@@ -67,8 +62,7 @@ cc.Class({
         } else {
             this.scoreLabel.string = this.score.toString();
             this.time -= dt;
-            this.timeLabel.string = Math.ceil(this.time).toFixed(0).toString();
-            this.bar.setRotation(36 * this.time);
+            this.bar.setRotation(-36 * this.time);
             if (this.time <= 0) {
                 this.end = true;
                 this.time = 0;
